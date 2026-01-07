@@ -28,8 +28,7 @@ public class Ejemplo044 {
         for (int i = 0; i < x.length; i++) {
             for (int j = 0; j < x[i].length; j++) {
                 z[i][j] = obtenerMultiplicacion(x[i][j],
-                        z[i][j]);
-
+                        y[i][j]);
             }
         }
         return z;
